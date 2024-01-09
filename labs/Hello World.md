@@ -108,7 +108,9 @@ Edit your file, recompile, and rerun your program to try again.
 You're now  ready to submit.  In a browser,  go to the class Gradescope page and
 upload your `hello.cpp` file as your submission for the first assignment.  After
 a few minutes,  you'll see the  Gradescope output:  if there are any compilation
-errors or output mismatches, you'll see those here.
+errors or output mismatches, you'll see those here.  Most likely, though, you'll
+get 100%,  and you're done with the lab.  Congratulations on writing  your first
+C++ program!
 
 
 [bash]: https://xavierholt.github.io/cheatsheets/bash.html
