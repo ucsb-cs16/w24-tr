@@ -15,7 +15,7 @@ programming assignment, do it on [Gradescope][gradescope].
 - **Kevin Zhang's Office Hours** 10:00 to 11:00 on Mondays in CSIL
 - **Shi's Office Hours** 13:00 to 14:00 on Mondays in the TA Trailer
 - **Yilin's Office Hours** 14:00 to 15:00 on Mondays in CSIL
-- **Huanhua's Office Hours** 16:00 to 17:00 on Wednesdays in CSIL
+- **Huanhua's Office Hours** 15:00 to 16:00 on Wednesdays in CSIL
 - **Kevin Burk's Office Hours** 17:00 to 18:00 on Thursdays in CSIL
 
 
