@@ -10,9 +10,12 @@ programming assignment, do it on [Gradescope][gradescope].
 
 ## Places & Times
 
-- **Lectures**  15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101
-- **Labs**  10:00 to 15:00 (one hour each) on Wednesdays in 3525 Phelps Hall
-- **Kevin's Office Hours**  17:00 to 18:00 on Thursdays in CSIL
+- **Lectures** 15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101
+- **Labs** 10:00 to 15:00 (one hour each) on Wednesdays in 3525 Phelps Hall
+- **Kevin Zhang's Office Hours** 10:00 to 11:00 on Mondays in CSIL
+- **Yilin's Office Hours** 14:00 to 15:00 on Mondays in CSIL
+- **Huanhua's Office Hours** 16:00 to 17:00 on Wednesdays in CSIL
+- **Kevin Burk's Office Hours** 17:00 to 18:00 on Thursdays in CSIL
 
 
 ## Assignments
@@ -31,6 +34,7 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 | Date           | Topics
 |----------------|--------
 | January    9th | Admin stuff; the syllabus; Hello World
+| January   11th | Variables, types, and how they look in memory
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16
