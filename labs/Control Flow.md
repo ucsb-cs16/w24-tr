@@ -20,7 +20,7 @@ Here's one example of what running this program could produce (note that program
 output and user input are mixed together in the terminal):
 
 ```
-[alice@wonderland lab2]$ ./convert
+[alice@wonderland lab2]$ ./hello2
 What's your name?
 Alice
 Hello Alice!
