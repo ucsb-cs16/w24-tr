@@ -23,9 +23,10 @@ programming assignment, do it on [Gradescope][gradescope].
 
 _Assignments are due before midnight Pacific Time._
 
-| Name                                 | Due
-|--------------------------------------|-----
-| [Hello World](labs/Hello%20World.md) | January 15th
+| Name                                   | Due
+|----------------------------------------|-----
+| [Hello World](labs/Hello%20World.md)   | January 15th
+| [Control Flow](labs/Control%20Flow.md) | January 22nd
 
 
 ## Lectures
@@ -36,6 +37,8 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 |----------------|--------
 | January    9th | Admin stuff; the syllabus; Hello World
 | January   11th | Variables, types, and how they look in memory
+| January   16th | More types, type conversions, and control flow
+| January   18th | Types and control flow: example problems
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16
