@@ -27,6 +27,7 @@ _Assignments are due before midnight Pacific Time._
 |----------------------------------------|-----
 | [Hello World](labs/Hello%20World.md)   | January 15th
 | [Control Flow](labs/Control%20Flow.md) | January 22nd
+| [Functions](labs/Functions.md)         | January 29th
 
 
 ## Lectures
@@ -39,6 +40,7 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 | January   11th | Variables, types, and how they look in memory
 | January   16th | More types, type conversions, and control flow
 | January   18th | Types and control flow: example problems
+| January   23rd | Data representation; functions; bitwise operators
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16
