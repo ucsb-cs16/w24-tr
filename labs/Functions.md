@@ -111,6 +111,9 @@ Class 1 start time:
 - Life will be much better if can represent a time in a single variable.  Pick a
   smart representation that lets you do this.  Don't use global variables!
 - Classes may start or end at midnight, but they'll never cross it.
+- If the user enters an invalid time, they should only need to re-enter that one
+  time.  If the user enters an invalid class,  they should only need to re-enter
+  the start and end times for that one class.
 
 
 ## Bit Math
