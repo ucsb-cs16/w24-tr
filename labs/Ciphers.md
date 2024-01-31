@@ -27,9 +27,9 @@ on Windows.
 Create a file named `caesar.cpp`.  In this file, write a program that implements
 a [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
 
-Your program should expect two command line arguments. The first argument should
+Your program should expect  two command line arguments.  The first argument must
 be either  `-e` (for encryption) or  `-d` (for decryption).  The second argument
-should be a  positive integer.  If the user provides the wrong number of command
+must be a non-negative integer. If the user provides the wrong number of command
 line arguments, if the first argument is not expected, or if the second argument
 is  not composed entirely of the digits  `0` through `9`,  print a usage message
 and exit with exit code 1 to indicate that there was an error:
@@ -252,6 +252,14 @@ sure you submit all of them together in your final submission!
 - The `cctype` header has some useful functions in it, but beware: these are old
   C functions that don't return `bool`s! They return zero for false and non-zero
   for true.
+- The `==` operator doesn't compare C strings  like you probably want it to:  it
+  compares  _pointers_,  not the  characters they're  pointing at.  To compare C
+  strings,  either use `strcmp()` from the `cstring` header  or convert at least
+  one of them to C++ `std::string`s and use the `==` operator on those.
+- The `std::string`'s `length()` function  returns an unsigned integral type  (a
+  `size_t`).  The compiler doesn't like it when you  compare unsigned and signed
+  integers, so make your loop indices  `unsigned int`s or `size_t`s  when you're
+  looping over strings.
 - Encrypting and then decrypting any message  with the same key  should give you
   back the original message (maybe plus some padding, in the case of Scytale).
 - How many of these ciphers  actually need separate functions for encryption and
