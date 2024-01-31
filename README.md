@@ -28,6 +28,7 @@ _Assignments are due before midnight Pacific Time._
 | [Hello World](labs/Hello%20World.md)   | January 15th
 | [Control Flow](labs/Control%20Flow.md) | January 22nd
 | [Functions](labs/Functions.md)         | January 29th
+| [Ciphers](labs/Ciphers.md)             | February 5th
 
 
 ## Lectures
@@ -41,6 +42,8 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 | January   16th | More types, type conversions, and control flow
 | January   18th | Types and control flow: example problems
 | January   23rd | Data representation; functions; bitwise operators
+| January   25th | Function call mechanics; bitwise examples; strings are arrays
+| January   30th | More arrays; intro to C strings and pointers
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16
