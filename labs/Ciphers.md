@@ -249,9 +249,15 @@ sure you submit all of them together in your final submission!
 - The `std::getline()`  function consumes  -- but doesn't return --  the newline
   character at the end of each line. The output is expected to end in a newline,
   though, so you'll have to add this yourself.
+- The best way to exit with a specific exit code  is to `return` that value from
+  `main()`.  The next best way is using `exit()` from the `cstdlib` header.
 - The `cctype` header has some useful functions in it, but beware: these are old
   C functions that don't return `bool`s! They return zero for false and non-zero
   for true.
+- C++ treats `char`s as signed integers, so watch out for integer overflow.  You
+  only need to add 6 to `'z'`  before it wraps around to -128.  Consider storing
+  characters as `int`s while doing math on them, then converting back to `char`s
+  afterwards.
 - The `==` operator doesn't compare C strings  like you probably want it to:  it
   compares  _pointers_,  not the  characters they're  pointing at.  To compare C
   strings,  either use `strcmp()` from the `cstring` header  or convert at least
