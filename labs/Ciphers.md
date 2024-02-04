@@ -84,14 +84,16 @@ USAGE: scytale [-ed] [key]
 
 If given valid arguments, your program should read its input one line at a time,
 encrypt or decrypt each line  as if on a scytale  with the user-specified key as
-its circumference, and then print the result.
+its circumference, and then print the result.  These examples use the middle dot
+character (`·`) to mark trailing spaces, but this is just for readability;  your
+program should print normal spaces.
 
 ```
 [julius@gallia lab4]$ ./scytale -e 3
 'Twas brillig, and the slithy toves
-'glT,iw taahsny d b trtoihvleel sis 
+'glT,iw taahsny d b trtoihvleel sis·
 Did gyre and gimble in the wabe;
-Dd i tdgh iegm ybwrlaeeb  eai;nn 
+Dd i tdgh iegm ybwrlaeeb  eai;nn·
 ```
 
 You can think of a scytale as a grid. The height of the grid is the key provided
@@ -108,7 +110,7 @@ The first line of the example above corresponds to this grid:
 ```
 'Twas brilli
 g, and the s
-lithy toves 
+lithy toves·
 ```
 
 To decrypt, write the message top to bottom, left to right, then read it left to
@@ -117,7 +119,7 @@ right, top to bottom.
 ```
 [julius@gallia lab4]$ ./scytale -d 7
 Aiwtov lmehre lsreos  ye g, m  bo
-All mimsy were the borogoves,      
+All mimsy were the borogoves,······
 Atm huanhorstbdema ge  etor.
 And the mome raths outgrabe.
 ```
@@ -126,17 +128,17 @@ The first line of this example corresponds to this grid:
 
 ```
 All m
-imsy 
-were 
+imsy·
+were·
 the b
 orogo
-ves, 
-     
+ves,·
+·····
 ```
 
 Note that when the key is one, or when it is greater than or equal to the length
-of the message, the input should be unchanged  (although some padding spaces may
-be added).
+of the message,  the input will be unchanged  (although some padding spaces will
+be added if the key is greater than the length of the message).
 
 
 ## Scrabble
