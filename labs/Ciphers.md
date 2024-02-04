@@ -57,9 +57,11 @@ Yhql, ylgl, ylfl.
 
 When decrypting, all letters should be rotated left.
 
+```
 [julius@gallia lab4]$ ./caesar -d 5
 Frtw Anshny Trsnf
 Amor Vincit Omnia
+```
 
 The key may be greater than twenty-six.  Note that when the key is a multiple of
 26, the input should be unchanged.
@@ -81,7 +83,7 @@ USAGE: scytale [-ed] [key]
 ```
 
 If given valid arguments, your program should read its input one line at a time,
-encrypt or decrypt each line  as if on a scytale with the user-specified key as
+encrypt or decrypt each line  as if on a scytale  with the user-specified key as
 its circumference, and then print the result.
 
 ```
