@@ -44,6 +44,12 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 | January   23rd | Data representation; functions; bitwise operators
 | January   25th | Function call mechanics; bitwise examples; strings are arrays
 | January   30th | More arrays; intro to C strings and pointers
+| February   1st | More arrays and pointers; command line arguments
+| February   6th | Midterm review
+| February   8th | Midterm
+| February  13th | Class cancelled
+| February  15th | Midterm debrief; compiling vs linking; multi-file programs
+| February  20th | The stack and the heap; manual memory management
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16
