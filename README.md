@@ -25,10 +25,11 @@ _Assignments are due before midnight Pacific Time._
 
 | Name                                   | Due
 |----------------------------------------|-----
-| [Hello World](labs/Hello%20World.md)   | January 15th
-| [Control Flow](labs/Control%20Flow.md) | January 22nd
-| [Functions](labs/Functions.md)         | January 29th
-| [Ciphers](labs/Ciphers.md)             | February 5th
+| [Hello World](labs/Hello%20World.md)   | January  15th
+| [Control Flow](labs/Control%20Flow.md) | January  22nd
+| [Functions](labs/Functions.md)         | January  29th
+| [Ciphers](labs/Ciphers.md)             | February  5th
+| [Library](labs/Library.md)             | February 27th
 
 
 ## Lectures
