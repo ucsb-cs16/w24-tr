@@ -28,12 +28,13 @@ void xps_debug(const char* str) {
       break;
     }
 
+    // Print the character data in hex:
     for(size_t i = 1; i <= len; ++i) {
       std::cout << ' ' << std::setw(2) << size_t(str[i]);
     }
 
+    // Print the charcter values:
     std::cout << "\n##";
-
     for(size_t i = 1; i <= len; ++i) {
       if(str[i] == '\0') {
         std::cout << " \\0";
@@ -55,6 +56,7 @@ void xps_debug(const char* str) {
       }
     }
 
+    // Print a newline after each chunk:
     std::cout << '\n';
 
     if(len != 15) {

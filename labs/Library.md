@@ -210,8 +210,8 @@ USAGE: match [pattern]
 ```
 
 When given one command line argument,  it should read standard input one line at
-a time, and report whether or not that line matched `pattern`.  If the pattern
-doesn't contain the character `*`, a line matches exactly when the pattern is a
+a time,  and report whether or not that line matched  `pattern`.  If the pattern
+doesn't contain the character `*`,  a line matches exactly when the pattern is a
 substring of that line:
 
 ```
@@ -231,6 +231,8 @@ can match any number of characters (including zero):
 []$ ./match me*and*you
 One for me and one for you.
 Match!
+We're going places, you and me.
+No match.
 If you meander you may become stranded.
 Match!
 ```
@@ -238,8 +240,8 @@ Match!
 When testing  patterns that contain `*`,  you may need to put  quotes around the
 pattern on the command line.  These quotes won't appear in the argument received
 by your program: they're essentially "escape characters" that prevent your shell
-from treating them as  [globs](https://en.wikipedia.org/wiki/Glob_(programming))
-(which behave almost exactly like they do in this program).
+from treating `*`s as  [globs](https://en.wikipedia.org/wiki/Glob_(programming))
+(which behave almost exactly like they do in your Match program).
 
 
 ## Submission
