@@ -51,6 +51,7 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 | February  13th | Class cancelled
 | February  15th | Midterm debrief; compiling vs linking; multi-file programs
 | February  20th | The stack and the heap; manual memory management
+| February  22nd | Valgrind; more manual memory management; intro to structs
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16

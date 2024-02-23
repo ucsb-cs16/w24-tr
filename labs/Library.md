@@ -5,11 +5,24 @@ be used in multiple programs.  These functions  all work with "XP strings" --- a
 not-very-efficient string storage format that I made up. You can find the format
 specification in the next section.
 
-This lab has three parts:
+This lab has  three parts,  and your role as a  programmer changes  depending on
+which part you're working on:
 
-1. Understand the XP string storage format.
-2. Implement a library of XP string functions.
-3. Use your library functions to solve problems.
+0. Understand the XP string storage format.
+1. Implement a library of XP string functions. When writing these functions, you
+   are acting as a library _author_;  you're writing functions that other people
+   will use to perform common or useful tasks.
+2. Use your library functions to implement programs. When using these functions,
+   you are acting as a library _user_; you're taking functions that someone else
+   wrote, and using them to solve problems.
+
+When acting as a library author, your concerns are mainly:
+- What functions should I make available?  (This list is given to you.)
+- How would a user expect this function to work?
+
+When acting as a library user, your concerns are quite different:
+- What functions do I have available to me?
+- How do I combine these functions to get the result I want?
 
 
 ## XP Strings
@@ -120,8 +133,17 @@ Some notes:
 - Feel free to add helper functions at the top of `xps.cpp`.
 
 Gradescope has test cases for each individual library function,  so you can test
-your library as soon as you've finished it. Or at least you will be able to once
-I have the autograder up...
+your library as soon  as you've finished it.  If you want to test some functions
+before you've written the entire library, you'll need to add "stubs" to get your
+code to compile on Gradescope,  which needs all  the library functions to exist.
+These stubs  need to have the correct  names and arguments,  but they can return
+dummy values instead of doing any work.  For example, a stub for `xps_concat()`:
+
+```cpp
+char* xps_concat(const char* lhs, const char* rhs) {
+  return nullptr;
+}
+```
 
 
 ## Programs
