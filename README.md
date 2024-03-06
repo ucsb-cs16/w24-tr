@@ -30,6 +30,7 @@ _Assignments are due before midnight Pacific Time._
 | [Functions](labs/Functions.md)         | January  29th
 | [Ciphers](labs/Ciphers.md)             | February  5th
 | [Library](labs/Library.md)             | February 27th
+| [Poker](labs/Poker.md)                 | March    18th
 
 
 ## Lectures
@@ -52,6 +53,9 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 | February  15th | Midterm debrief; compiling vs linking; multi-file programs
 | February  20th | The stack and the heap; manual memory management
 | February  22nd | Valgrind; more manual memory management; intro to structs
+| February  27th | Library lab walkthrough
+| February  29th | More structs; references
+| March      5th | Structs and classes; member functions; constructors and destructors
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16
