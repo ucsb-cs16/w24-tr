@@ -56,6 +56,7 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 | February  27th | Library lab walkthrough
 | February  29th | More structs; references
 | March      5th | Structs and classes; member functions; constructors and destructors
+| March      7th | More struct, classes, constructors, member functions, etc.
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16
