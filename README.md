@@ -31,6 +31,7 @@ _Assignments are due before midnight Pacific Time._
 | [Ciphers](labs/Ciphers.md)             | February  5th
 | [Library](labs/Library.md)             | February 27th
 | [Poker](labs/Poker.md)                 | March    18th
+| [Lists](labs/Lists.md) (Extra credit!) | March    18th
 
 
 ## Lectures
@@ -57,6 +58,7 @@ _15:30 to 16:45 on Tuesdays and Thursdays in ILP 1101_
 | February  29th | More structs; references
 | March      5th | Structs and classes; member functions; constructors and destructors
 | March      7th | More struct, classes, constructors, member functions, etc.
+| March     12th | Recursion; linked lists
 
 
 [piazza]:     https://piazza.com/ucsb/winter2024/cs16
